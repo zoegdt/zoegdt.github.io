@@ -16,13 +16,9 @@ tags:
   - Phase Space
 featured: false
 links:
-  - type: source
-    url: https://epjd.epj.org/articles/epjd/abs/2024/02/10053_2024_Article_804/10053_2024_Article_804.html
   - type: custom
     label: DOI
     url: https://doi.org/10.1140/epjd/s10053-024-00804-y
 slides: ""
 projects: []
 ---
-
-Published in The European Physical Journal D.

@@ -18,10 +18,6 @@ links:
   - type: preprint
     provider: arxiv
     id: 2604.06325
-  - type: source
-    url: https://arxiv.org/abs/2604.06325
 slides: ""
 projects: []
 ---
-
-Preprint available on arXiv: https://arxiv.org/abs/2604.06325

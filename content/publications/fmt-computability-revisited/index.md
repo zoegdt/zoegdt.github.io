@@ -17,13 +17,9 @@ tags:
   - Computability
 featured: false
 links:
-  - type: source
-    url: https://portal.fis.tum.de/en/publications/feynman-meets-turing-computability-aspects-of-quantum-compiling-r/
   - type: custom
     label: DOI
     url: https://doi.org/10.1109/TC.2025.3626469
 slides: ""
 projects: []
 ---
-
-Published in IEEE Transactions on Computers.

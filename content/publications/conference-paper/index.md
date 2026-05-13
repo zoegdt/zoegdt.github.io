@@ -17,13 +17,9 @@ tags:
   - Computability
 featured: false
 links:
-  - type: source
-    url: https://portal.fis.tum.de/en/publications/feynman-meets-turing-the-infeasibility-of-digital-compilers-for-g
   - type: custom
     label: DOI
     url: https://doi.org/10.1109/ICC51166.2024.10622486
 slides: ""
 projects: []
 ---
-
-Conference paper presented at ICC 2024 in Denver.
