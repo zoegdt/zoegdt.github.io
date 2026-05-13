@@ -38,7 +38,10 @@ hugoblox:
       secondary: "#9fb2a4"
       neutral: "#5f5a54"
     colors_light: {}
-    colors_dark: {}
+    colors_dark:
+      primary: "#9fbda9"
+      secondary: "#c4b59d"
+      neutral: "#d6d1c8"
     surfaces:
       background: "#ffffff"
       foreground: "#202020"
