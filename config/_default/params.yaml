@@ -19,9 +19,9 @@ hugoblox:
     # Schema.org type for structured data
     type: person                        # person | organization | local_business
     # Short tagline displayed on your site
-    tagline: "Academic homepage built with HugoBlox"
+    tagline: "PhD Student in Quantum Information Theory"
     # Site meta description for search engines and social sharing
-    description: "A simple academic profile, publication list, and CV website."
+    description: "Academic website of Zoe G. del Toro, also Zoe Garcia del Toro, PhD student in Quantum Information Theory at LIP6, Sorbonne Universite."
     # Social accounts (used for meta tags like Twitter Cards)
     social:
       twitter: ""              # Twitter/X handle for Twitter Cards (without @)
@@ -126,7 +126,7 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   seo:
     # Browser tab title override (defaults to identity.name if not set)
-    title: ""
+    title: "Zoe G. del Toro | Quantum Information Theory"
     # For local_business identity type only
     location:
       address:
