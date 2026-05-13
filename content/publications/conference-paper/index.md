@@ -1,90 +1,29 @@
 ---
-title: 'An example conference paper'
-
-# Authors
-# If you created a profile for a user (e.g. the default `me` user), write the username (folder name) here
-# and it will be replaced with their full name and linked to their profile.
+title: "Feynman Meets Turing: The Infeasibility of Digital Compilers for Gate-Based Quantum Computing"
 authors:
+  - Yannik N. Bock
+  - Holger Boche
   - me
-  - Robert Ford
-
-# Author notes (optional)
-author_notes:
-  - 'Equal contribution'
-  - 'Equal contribution'
-
-date: '2013-07-01T00:00:00Z'
-
-# Schedule page publish date (NOT publication's date).
-publishDate: '2017-01-01T00:00:00Z'
-
-# Publication type.
-# Accepts a single type but formatted as a YAML list (for Hugo requirements).
-# Enter a publication type from the CSL standard.
-publication_types: ['paper-conference']
-
-# Publication name and optional abbreviated publication name.
-publication: In *HugoBlox Kit Conference*
-publication_short: In *ICW*
-
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
-
-# Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
-
+  - Frank H. P. Fitzek
+date: "2024-06-09T00:00:00Z"
+publishDate: "2024-06-09T00:00:00Z"
+publication_types: ["paper-conference"]
+publication: "ICC 2024 - IEEE International Conference on Communications"
+publication_short: ""
+abstract: This paper studies the problem of digitally computing gate-circuit approximations of quantum algorithms from the perspective of computable analysis. It argues that, despite the existence guarantees given by the Solovay-Kitaev theorem, digital quantum compiling is uncomputable under a rigorous Turing-machine-based notion of computability. The work also discusses implications for heuristic approaches to quantum compiling in practice.
+summary: An ICC 2024 paper on the uncomputability of digital quantum compiling.
 tags:
-  - Large Language Models
-
-# Display this page in the Featured widget?
-featured: true
-
-# Standard identifiers for auto-linking
-hugoblox:
-  ids:
-    doi: 10.5555/123456
-
-# Custom links
+  - Quantum Computing
+  - Computability
+featured: false
 links:
-  - type: pdf
-    url: ""
-  - type: code
-    url: https://github.com/HugoBlox/kit
-  - type: dataset
-    url: https://github.com/HugoBlox/kit
-  - type: slides
-    url: https://www.slideshare.net/
   - type: source
-    url: https://github.com/HugoBlox/kit
-  - type: video
-    url: https://youtube.com
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
-  focal_point: ''
-  preview_only: false
-
-# Associated Projects (optional).
-#   Associate this publication with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `internal-project` references `content/project/internal-project/index.md`.
-#   Otherwise, set `projects: []`.
-projects:
-  - example
-
-# Slides (optional).
-#   Associate this publication with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides: "example"` references `content/slides/example/index.md`.
-#   Otherwise, set `slides: ""`.
+    url: https://portal.fis.tum.de/en/publications/feynman-meets-turing-the-infeasibility-of-digital-compilers-for-g
+  - type: custom
+    label: DOI
+    url: https://doi.org/10.1109/ICC51166.2024.10622486
 slides: ""
+projects: []
 ---
 
-> [!NOTE]
-> Click the _Cite_ button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-
-> [!NOTE]
-> Create your slides in Markdown - click the _Slides_ button to check out the example.
-
-Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).
+Conference paper presented at ICC 2024 in Denver.

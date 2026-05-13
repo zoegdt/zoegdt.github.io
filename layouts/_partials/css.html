@@ -1,0 +1,33 @@
+{{/* Windows-friendly override: use the project's local Tailwind CLI directly. */}}
+{{ with resources.Get "css/main.css" }}
+  {{ $dynamic_sources_str := partial "tailwind_sources.html" . }}
+  {{ $dynamic_sources_res := resources.FromString "css/_dynamic_sources.css" $dynamic_sources_str }}
+
+  {{ $main_css := . }}
+  {{ $entry_parts := slice $dynamic_sources_res $main_css }}
+
+  {{ range resources.Match "css/hbx/blocks/shared/**/*.css" }}
+    {{ $entry_parts = $entry_parts | append . }}
+  {{ end }}
+  {{ range resources.Match "css/hbx/blocks/**/style.css" }}
+    {{ $entry_parts = $entry_parts | append . }}
+  {{ end }}
+  {{ range resources.Match "dist/community/blox/**/*.css" }}
+    {{ $entry_parts = $entry_parts | append . }}
+  {{ end }}
+
+  {{ $entry := $entry_parts | resources.Concat "css/_entry.css" }}
+  {{ $opts := dict
+    "binary" "node_modules/.bin/tailwindcss.cmd"
+    "minify" (not hugo.IsDevelopment)
+  }}
+  {{ with $entry | css.TailwindCSS $opts }}
+    {{ if hugo.IsDevelopment }}
+      <link rel="stylesheet" href="{{ .RelPermalink }}">
+    {{ else }}
+      {{ with . | fingerprint }}
+        <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous">
+      {{ end }}
+    {{ end }}
+  {{ end }}
+{{ end }}
