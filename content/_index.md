@@ -1,6 +1,6 @@
 ---
 title: ''
-summary: ''
+summary: 'Academic website of Zoe G. del Toro, also searchable as Zoe G del Toro and Zoe Garcia del Toro, PhD student in Quantum Information Theory at LIP6, Sorbonne Universite.'
 date: 2026-04-08
 type: landing
 

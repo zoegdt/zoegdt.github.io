@@ -21,7 +21,7 @@ hugoblox:
     # Short tagline displayed on your site
     tagline: "PhD Student in Quantum Information Theory"
     # Site meta description for search engines and social sharing
-    description: "Academic website of Zoe G. del Toro, also Zoe Garcia del Toro, PhD student in Quantum Information Theory at LIP6, Sorbonne Universite."
+    description: "Academic website of Zoe G. del Toro, also searchable as Zoe G del Toro and Zoe Garcia del Toro, PhD student in Quantum Information Theory at LIP6, Sorbonne Universite."
     # Social accounts (used for meta tags like Twitter Cards)
     social:
       twitter: ""              # Twitter/X handle for Twitter Cards (without @)
@@ -126,7 +126,7 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   seo:
     # Browser tab title override (defaults to identity.name if not set)
-    title: "Zoe G. del Toro | Quantum Information Theory"
+    title: "Zoe G. del Toro | Zoe Garcia del Toro"
     # For local_business identity type only
     location:
       address:

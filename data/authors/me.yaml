@@ -5,7 +5,7 @@ name:
   display: Zoe G. del Toro
   given: Zoe
   family: Garcia del Toro
-  alternate: 'Zoe Garcia del Toro'
+  alternate: 'Zoe Garcia del Toro; Zoe G del Toro'
   pronunciation: ''
   pronouns: ''
 role: PhD Student
@@ -13,6 +13,8 @@ bio: |
   I am currently a PhD student in Quantum Information Theory at LIP6, Sorbonne Universite in Paris, France.
 
   My research interests span quantum information theory, quantum computation, and information processing, with a particular focus on the mathematical and conceptual foundations of these areas. In particular, my current work is centered on the characterization of higher-order quantum operations and their applications to quantum information theory.
+
+  I also publish and appear online as Zoe Garcia del Toro and Zoe G del Toro.
 affiliations:
   - name: LIP6-Sorbonne Universite
     url: https://qi.lip6.fr/
