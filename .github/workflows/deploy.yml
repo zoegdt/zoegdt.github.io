@@ -1,10 +1,8 @@
 name: Deploy website to GitHub Pages
 
 on:
-  # Trigger the workflow every time you push to the `main` branch
-  push:
-    branches: ['main']
-  # Allows you to run this workflow manually from the Actions tab on GitHub
+  # Legacy Hugo deployment retained for reference, but no longer runs on pushes.
+  # The static website is deployed by pages.yml.
   workflow_dispatch:
 
 # Provide permission to clone the repo and deploy it to GitHub Pages
