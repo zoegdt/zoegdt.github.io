@@ -25,10 +25,15 @@ jobs:
         uses: actions/checkout@v4
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
+      - name: Prepare approved website files
+        run: |
+          mkdir -p _site/assets
+          cp index.html styles.css script.js robots.txt sitemap.xml .nojekyll _site/
+          cp assets/og.png assets/zoe-web.jpeg assets/zoe-del-toro-cv.pdf _site/assets/
       - name: Upload website
         uses: actions/upload-pages-artifact@v3
         with:
-          path: .
+          path: _site
       - name: Publish
         id: deployment
         uses: actions/deploy-pages@v4
